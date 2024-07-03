@@ -1,0 +1,188 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) 
+{
+  html 
+  {
+    font-size: 16px;
+  }
+}
+
+html 
+{
+  position: relative;
+  min-height: 100%;
+}
+
+body 
+{
+    margin-bottom: 250px; 
+}
+
+.text-pink
+{
+    color: #ff1448 !important;
+}
+
+.nav-link
+{
+    letter-spacing: 2px;
+}
+
+#carouselExampleSlidesOnly
+{
+    height:400px;
+}
+
+footer {
+    background-color: #0d243d;
+    height: 230px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+header
+{
+    z-index:1000;
+}
+
+.dishCard
+{
+    height:270px;
+}
+
+#recipe-list
+{
+    top:5rem
+}
+
+#recipe-list ul::-webkit-scrollbar
+{
+    width:10px;
+}
+
+#recipe-list ul::-webkit-scrollbar-track
+{
+    background-color: #ffffff;
+}
+
+#recipe-list ul::-webkit-scrollbar-thumb 
+{
+    background-color: #ff1448;
+    border-radius:10px;
+}
+
+.recipe-item:hover {
+    background-color: #0d243d;
+    border-radius: 10px;
+}
+
+.recipe-item:hover a
+{
+    color:#ffffff !important;
+}
+
+.card {
+    overflow: hidden;
+}
+
+#order-img
+{
+    height:230px;
+}
+
+.validation-summary-errors li
+{
+    color: #dc3545;
+}
+
+#qty
+{
+    width:50px;
+    border:none;
+}
+
+#qty:focus
+{
+    outline:none;
+}
+
+#qtySection
+{
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+.fa-plus, .fa-minus
+{
+    cursor:pointer;
+}
+
+#totalAmount , #price
+{
+    width:60px;
+    border:none;
+}
+
+#totalAmount:focus, #price:focus 
+{
+    outline: none;
+}
+
+.addToCartIcon
+{
+    cursor: pointer;
+}
+
+.bg-black
+{
+    background-color: #0d243d;
+}
+
+#showCartList
+{
+    display:none;
+    right:10px;
+    width:320px;
+}
+
+#cartListIcon:hover ~#showCartList
+{
+    display:block;
+}
+
+.cartListImg
+{
+    width:80px;
+    height:40px;
+}
+
+#showCartList:hover 
+{
+    display: block;
+}
+
+.cartImage
+{
+    width:180px;
+    height:100px;
+}
+
+.cartTitle
+{
+    width:500px;
+}
+
+.emptyCart
+{
+    font-size:200px;
+}
+
+.removeCartBTN
+{
+    cursor:pointer;
+}
